@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CellStart ChronoNAD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Poppins:wght@700;600&family=Source+Sans+Pro:wght@400&display=swap');
+    body {
+      margin: 0; padding: 0;
+      font-family: 'Source Sans Pro', Arial, sans-serif;
+      background: #f6f8fa; color: #002f5c;
+    }
+    .container {
+      max-width: 1200px; margin: 0 auto; padding: 24px;
+    }
+    header {
+      background: #002f5c;
+      color: #fff;
+      padding: 56px 0 40px 0;
+      text-align: center;
+      border-radius: 8px 8px 0 0;
+    }
+    .logo {
+      font-family: 'Cabin', 'Poppins', sans-serif;
+      font-size: 2.3em;
+      letter-spacing: 2px;
+      font-weight: 700;
+    }
+    h1 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      margin: 18px 0 10px 0;
+      color: #fff;
+      font-size: 2em;
+    }
+    p {
+      font-size: 1.15em;
+      margin: 16px 0;
+      color: #eee;
+      font-family: 'Source Sans Pro', Arial, sans-serif;
+    }
+    .cta-btn {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 14px 34px;
+      background: linear-gradient(90deg, #0057a6, #002f5c);
+      color: #fff;
+      font-size: 1.15em;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s;
+      box-shadow: 0 4px 24px rgba(0,0,36,0.08);
+    }
+    .cta-btn:hover {
+      background: linear-gradient(90deg, #002f5c, #0057a6);
+      color: #e3eef9;
+    }
+    .features, .benefits {
+      background: #fff;
+      border-radius: 18px;
+      margin: 36px 0;
+      padding: 36px 28px;
+      box-shadow: 0 2px 14px rgba(0,36,54,0.05);
+      text-align: center;
+    }
+    .features h2, .benefits h2 {
+      font-family: 'Poppins', sans-serif;
+      color: #002f5c;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .feature-cards, .benefit-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px;
+      justify-content: center;
+      margin-top: 22px;
+    }
+    .card {
+      flex: 1 1 240px;
+      max-width: 300px;
+      background: #f6fafe;
+      border: 2px solid #e0ebf9;
+      border-radius: 12px;
+      padding: 22px;
+      min-width: 200px;
+      box-shadow: 0 2px 8px rgba(0,42,85,0.05);
+    }
+    .card h3 {
+      font-family: 'Cabin', sans-serif;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #0057a6;
+    }
+    .card p {
+      color: #002f5c;
+      margin: 0;
+      font-size: 1em;
+    }
+    .source {
+      font-size: 0.97em;
+      color: #0057a6;
+      margin-top: 14px;
+      font-style: italic;
+    }
+    @media (max-width: 850px) {
+      .feature-cards, .benefit-cards { flex-direction: column; align-items: center; }
+      header { padding: 40px 0 24px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="logo">CellStart</span>
+    <h1>Unlock Your Potential</h1>
+    <p>The key to a more vibrant you lies in your cells. ChronoNAD helps restore the energy, health, and vitality you deserve.</p>
+    <a class="cta-btn" href="#benefits">Fuel My Cells</a>
+  </header>
+  <main class="container">
+    <!-- Product Features Section -->
+    <section class="features" id="features">
+      <h2>Why Is NAD Your Cellular Fuel?</h2>
+      <div class="feature-cards">
+        <div class="card">
+          <h3>Restores NAD Levels</h3>
+          <p>Aging depletes NAD, diminishing energy. ChronoNAD brings it back—feel younger & more energetic.</p>
+        </div>
+        <div class="card">
+          <h3>1.7x NAD Boost</h3>
+          <p>Combining NAD with Resveratrol can raise NAD in your body up to <strong>1.7x</strong> higher than NAD alone.</p>
+        </div>
+        <div class="card">
+          <h3>Clinically Backed</h3>
+          <p>Formulated based on science for proven results, activating longevity genes and cellular defense.</p>
+        </div>
+      </div>
+      <div class="source">Source: Jiang et al., Pharmacology Research Perspectives, 2022</div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+      <h2>The ChronoNAD Advantage</h2>
+      <div class="benefit-cards">
+        <div class="card">
+          <h3>Enhanced Cellular Health</h3>
+          <p>Supports cellular renewal and robust defense for healthy aging at every stage.</p>
+        </div>
+        <div class="card">
+          <h3>Simple Once-a-Day Formula</h3>
+          <p>Just one supplement to help restore vitality and power longevity, every morning.</p>
+        </div>
+        <div class="card">
+          <h3>Inclusive Wellness</h3>
+          <p>ChronoNAD is for everyone—crafted for a diverse and authentic wellness journey.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
